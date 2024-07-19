@@ -1,25 +1,18 @@
 package com.student.Service;
-
 import com.student.Entity.Student;
 import com.student.Repository.StudentRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.support.NullValue;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
 @Service
 @Transactional
-
 public class StudentServiceImpl implements StudentService{
-
 
     @Autowired
     private StudentRepository  studentRepository;
-
-
 
     @Override
     public List<Student> getAllStudent() {
@@ -39,7 +32,7 @@ public class StudentServiceImpl implements StudentService{
     @Override
     public String deleteStudent(Long id) {
         studentRepository.deleteById(id);
-        return "Student with id "+id +"Deleted .....";
+        return "Student with id "+id +"  Deleted .....";
     }
 
     @Override
