@@ -1,0 +1,31 @@
+"2024-07-23 12:03:26 [main] INFO  com.student.StudentApplication - Starting StudentApplication using Java 17.0.12 with PID 9888 (C:\Users\user\Desktop\student\student\target\classes started by user in C:\Users\user\Desktop\student)
+""2024-07-23 12:03:26 [main] DEBUG com.student.StudentApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+""2024-07-23 12:03:26 [main] INFO  com.student.StudentApplication - No active profile set, falling back to 1 default profile: "default"
+""2024-07-23 12:03:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-07-23 12:03:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+""2024-07-23 12:03:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+""2024-07-23 12:03:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2024-07-23 12:03:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+""2024-07-23 12:03:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2024-07-23 12:03:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2998 ms
+""2024-07-23 12:03:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2024-07-23 12:03:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c4bf0945-8d8d-47eb-9888-abacbab695ca user=SA
+""2024-07-23 12:03:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2024-07-23 12:03:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-07-23 12:03:30 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+""2024-07-23 12:03:30 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+""2024-07-23 12:03:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+""2024-07-23 12:03:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+""2024-07-23 12:03:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-07-23 12:03:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2024-07-23 12:03:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+""2024-07-23 12:03:34 [main] INFO  com.student.StudentApplication - Started StudentApplication in 8.649 seconds (process running for 9.494)
+""2024-07-23 12:03:42 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2024-07-23 12:03:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2024-07-23 12:03:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2024-07-23 12:03:43 [http-nio-8080-exec-1] INFO  c.s.Controller.StudentController - Controller Post Method Called
+""2024-07-23 12:03:49 [http-nio-8080-exec-3] INFO  c.s.Controller.StudentController - Get Method calling...
+""2024-07-23 12:16:48 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-07-23 12:16:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2024-07-23 12:16:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"

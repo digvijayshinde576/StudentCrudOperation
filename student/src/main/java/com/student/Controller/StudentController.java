@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/student")
 @Component
-@Slf4j
+//@Slf4j
 public class StudentController {
 
     private static final Logger log = LoggerFactory.getLogger(StudentController.class);
